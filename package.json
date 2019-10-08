@@ -1,0 +1,22 @@
+{
+  "name": "tryouts-oboe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "nf start",
+    "serve:front": "sleep 3 && live-server .",
+    "api:small": "FILE=./small.json node index.js",
+    "api:big": "FILE=./big.json node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "foreman": "^3.0.1",
+    "live-server": "^1.2.1"
+  }
+}
